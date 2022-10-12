@@ -6,6 +6,6 @@ public class Circle extends Shape {
     }
     @Override 
     double getArea(){
-        return this.getRadius() * 2 * Math.PI ;
+        return Math.pow(this.getRadius() , 2) * 4 ;
     }
 }

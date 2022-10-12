@@ -5,6 +5,6 @@ public class Square extends Shape {
     }
     @Override
     double getArea(){
-        return 4*Math.pow(this.getRadius(),2);
+        return Math.pow(this.getRadius(),2);
     }
 }
