@@ -23,5 +23,6 @@ abstract class Shape {
     public void setRadius(int radius){
          this.radius = radius;
     }
-        abstract double getArea() ;
+    abstract double getArea() ;
+    abstract String toStr();
 }

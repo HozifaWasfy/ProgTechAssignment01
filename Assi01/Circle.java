@@ -8,4 +8,8 @@ public class Circle extends Shape {
     double getArea(){
         return Math.pow(this.getRadius() , 2) * 4 ;
     }
+    @Override
+    String toStr() {
+    return String.format("Shape of circle with x: %d  y: %d  and radius: %d",this.getX(),this.getY(),this.getRadius());
+    }
 }

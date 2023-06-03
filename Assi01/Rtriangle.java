@@ -8,4 +8,8 @@ public class Rtriangle extends Shape {
         double bHeight = (Math.sqrt(3)/2) * this.getRadius();
         return bHeight*getRadius(); 
     }
+    @Override
+    String toStr() {
+    return String.format("Shape of Triangle with x: %d  y: %d  and side: %d",this.getX(),this.getY(),this.getRadius());
+    }
 }
